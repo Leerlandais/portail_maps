@@ -1,0 +1,55 @@
+.countryBody {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%); 
+    color: #4ba0a0;
+    height: 1250vh;
+}
+
+.countryTable, .countryCol {
+    width: 85vw;
+    border: 1px solid hsla(211, 36%, 46%, 1);
+    text-align: center;
+}
+
+.countryCol img {
+    height: 30%;
+    width: 30%;
+}
+
+.countryCount {
+    margin: 5px 0 10px;
+}
+
+a {
+    color: hsla(180, 36%, 46%, 1);
+}
+
+.pageMover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.pageMover a {
+    margin: 0 3px;
+}
+
+.pageSort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 0 10px;
+}
+
+h4 {
+    margin: 5px;
+}
+.pageLink {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0 10px;
+}
